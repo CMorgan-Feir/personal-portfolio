@@ -225,15 +225,24 @@ p {
 
 .project-details-container {
     display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.project-details-header {
+    flex: 1;
+    font-size: 2em;
+}
+
+.project-details-more-info {
+    flex: 1.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .tech-stack-details {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
 }
 
 #about-yellow {
@@ -273,7 +282,6 @@ p {
 .menu-item a:hover {
     color: white !important;
     text-decoration: none;
-    /* background-color: #eee; */
 }
   
 .menu-item a:focus {
@@ -283,7 +291,28 @@ p {
 .menu-item a:visited {
     color: inherit;
 }
-  
-/* .active-menu-item {
-    background-color: #e8e8f9;
-} */
+
+.about-header-text {
+    font-size: 1.3em;
+}
+
+.the-brief-header-text {
+    color: #B23B01;
+}
+
+.the-role-header-text {
+    color: #B69128;
+}
+
+.the-tech-header-text {
+    color: #628273;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-content {
+    width: 80%;
+}

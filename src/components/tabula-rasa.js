@@ -1,11 +1,16 @@
 import React, {Component} from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 class TabulaRasa extends Component {
     render() {
         return (
             <div className="project-page-container">
             <div className="project-main-container">
-                <div className="project-background-text">TABULA RASA</div>
+                {/* <ScrollAnimation
+                animateIn="fadeIn"
+                animateOut="fadeOut">
+                    <h3>TABULA RASA</h3>
+                </ScrollAnimation> */}
                 <div className="the-div-that-holds-the-divs">
                     <div className="project-row-one">
                         <div className="holder-div">
@@ -27,18 +32,22 @@ class TabulaRasa extends Component {
             </div>
             <div className="project-details-container">
                 <div className="project-details-header">
-                    <h1>A chic site for curated art prints</h1>
+                    <h1>A chic approach to curated prints</h1>
                 </div>
-                <div className="project-details-more-info">
-                    <h3>Yes, I wanted to make an elegant example of a straightforward ecommerce site. But I also wanted the site to fill a void I've always felt: a good source for classic, curated art prints. I figured out the tech side of things, the copyright quandries are still tbd</h3>
-                </div>
+                <div className="project-details-more-info" />
             </div>
             <div className="tech-stack-details">
+                <span className="the-brief-header-text"><h3>The Brief</h3></span>
                 <p>
-                    Role: Sole developer
+                In part, I wanted to make an elegant example of a straightforward ecommerce site. But I also wanted the site to fill a void I've always felt: a good source for classic, curated art prints. I figured out the tech side of things, but the copyright quandries are still tbd.
                 </p>
+                <span className="the-role-header-text"><h3>The Role</h3></span>
                 <p>
-                    Tech used: JavaScript, HTML, CSS, React, Redux, React-Redux, React 360, Git, Node.js, Express, Sequelize
+                Sole developer
+                </p>
+                <span className="the-tech-header-text"><h3>The Tech</h3></span>
+                <p>
+                JavaScript, HTML, CSS, React, Redux, React-Redux, Git, Node.js, Express, Sequelize, Google OAuth
                 </p>
             </div>
             </div>
