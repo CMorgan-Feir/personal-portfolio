@@ -27,8 +27,13 @@ class About extends Component {
                     <h3 className="about-header-text">And I always love to chat!</h3>
                     </span>
                     <p>
-                        So go ahead: write me an email, add me on LinkedIn, even peruse my code on Github if you're so inclined.
+                        So go ahead: <a className="the-brief-header-text" href="mailto:morganfeir@gmail.com">write me an email</a>, <a className="the-role-header-text" href="https://www.linkedin.com/in/morgan-feir/">add me on LinkedIn</a>, even peruse <a className="the-tech-header-text" href="https://github.com/CMorgan-Feir">my code on Github</a> if you're so inclined.
                     </p>
+                    <span id="about-lilac">
+                        <a href="https://morganfeir.s3.us-east-2.amazonaws.com/portfolio/CMorganFeir.pdf" download>
+                            <h3 className="about-header-text">Or just download my resume.</h3>
+                        </a>
+                    </span>
                 </div>
             </div>
         )
