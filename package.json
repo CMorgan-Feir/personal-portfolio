@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-watch": "webpack -w",
+    "build": "webpack",
     "serve": "http-server -p 8080 -c-1 ./server",
     "start-dev": "npm run build-watch & npm run start-server",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client"
@@ -31,6 +32,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "gh-pages": "^2.1.1",
     "nodemon": "^1.18.3",
     "redux-devtools-extension": "^2.13.5",
     "webpack": "^4.40.2",
