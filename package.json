@@ -36,6 +36,6 @@
     "nodemon": "^1.18.3",
     "redux-devtools-extension": "^2.13.5",
     "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   }
 }
